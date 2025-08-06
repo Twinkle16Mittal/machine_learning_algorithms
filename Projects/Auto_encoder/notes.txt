@@ -1,0 +1,3 @@
+Here there are no label is requried because first we will do the encoding and then decoding. so we can say it is a unsupervised learning algorithm.
+
+used the mnist dataset.
