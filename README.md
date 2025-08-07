@@ -15,4 +15,18 @@ data: original_data/Housing_price_dataset/train.csv
 
 output: original_data/Housing_price_dataset/home_result_prediction.csv
 
+Some Terms should be know:
+
+n_estimators: set the number of decision trees in the algorithm
+ex:, 
+n_estimators=10 means the random forest will be made up of 10 different decision trees, and their outputs will be averaged to make the final prediction.
+
+random_state = 1/0
+Sets the seed for random number generation, making results reproducible.
+random_state=0 ensures that the same "random" trees are built every time you run the code, so you get the same results.
+But random_state=1 will produce a different set of random numbers (and thus different trees) than random_state=0.
+
+axis = 1/0
+axis 1 -> drop columns
+axis 0 -> drop rows
 
