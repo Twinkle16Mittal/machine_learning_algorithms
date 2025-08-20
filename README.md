@@ -30,3 +30,8 @@ axis = 1/0
 axis 1 -> drop columns
 axis 0 -> drop rows
 
+strides -> controls how far the convolution filter moves across the input each time it slides.
+
+strides=(1,1) (default): The filter moves one pixel at a time horizontally and vertically.
+
+strides=(2,2) or strides=2: The filter jumps two pixels at a time in both directions, effectively downsampling the feature map (reducing its spatial resolution by about half).
