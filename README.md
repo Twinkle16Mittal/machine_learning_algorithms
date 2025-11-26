@@ -2,7 +2,7 @@
 
 Learn Basics of Machine learning topics like
 1. how to use Tree Models like DecisionTreeRegressor
-2. how to use ensemble model liks RandomForestRegressor 
+2. how to use ensemble model like RandomForestRegressor 
 
 code:
 Basic_Ml_Models/ learn_ml.ipynb
